@@ -256,22 +256,24 @@ p{
   padding: 5px 5px;
   margin-top: 1rem;
 }
+.header-container{
+   margin-left: 5rem;
+}
+
+.form-control{
+ height: 30px;
+ width: 70%
+}
+
 
 form {
    position: relative;
    margin-left: 2rem;
 }
-
 .form-control-textarea{
  resize: none;
 
 }
-
-.form-control{
- height: 50px;
- width: 50%
-}
-
 .form-control:focus {
 
    color: #000;
