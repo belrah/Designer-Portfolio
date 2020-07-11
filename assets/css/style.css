@@ -179,20 +179,19 @@ html.body {
 }
 .hr2{
    background-color: #FB3F5C;
-   width: 14%;
-   /* margin-left: 32rem; */
+   width: 12%;
+   max-width: 100px;
    height: 4px;
    border-radius: 5rem;
-   margin-top: 0;   
 }
-.hr3{
+/* .hr3{
    background-color: #FB3F5C;
    width: 12%;
-   /* margin-left: 25rem; */
+   margin-left: 25rem;
    height: 4px;
    border-radius: 5rem;
    margin-top: 0;   
-}
+} */
 .head1{
    /* padding-top: 2rem; */
    font-weight: bold;
@@ -266,9 +265,9 @@ p{
 }
 
 
-form {
-   position: relative;
-   margin-left: 2rem;
+form{
+   /* position: relative; */
+   /* margin-left: 2rem; */
 }
 .form-control-textarea{
  resize: none;
