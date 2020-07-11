@@ -16,6 +16,7 @@ html.body {
 /*Navigation style starts here!*/
 .navbar {
     background-color: rgba(251, 63, 92, 0.5);
+  
 }
 
 .navbar-toggler,
@@ -25,7 +26,7 @@ html.body {
 
  .navbar-light .navbar-toggler,
 .navbar-toggler-icon {
-  color: #fd954e;
+  color: white;
 } 
 
 
@@ -164,7 +165,8 @@ html.body {
    margin-left: 24rem; 
    height: 4px;
    border-radius: 5rem;
-   margin-top: 0;  
+   margin-top: 0; 
+   margin-left: 32rem; 
  
 }
 .hr1{
@@ -184,7 +186,7 @@ html.body {
    margin-top: 0;   
 }
 .hr3{
-   background-color: #a0a0a0;
+   background-color: #FB3F5C;
    width: 12%;
    /* margin-left: 25rem; */
    height: 4px;
@@ -246,6 +248,7 @@ p{
 }
 .p-text{
    text-align: left;
+   
 }
 
 .textbox {
@@ -274,10 +277,6 @@ form {
    color: #000;
 
 }
-
-
-
-
 footer {
     background-color: #04172A;
     color: white;
@@ -285,7 +284,6 @@ footer {
 }
 .footer-text {
   font-size: 11px;
-  word-wrap: break-word;
 }
 /*---- media queries---*/
 
