@@ -17,7 +17,7 @@ html.body {
 .navbar {
     background-color: rgba(251, 63, 92, 0.5);
 }
-/*
+
 .navbar-toggler,
 .navbar-light {
   border: none;
@@ -35,14 +35,14 @@ html.body {
     font-family: DM Sans;
     color: white; 
 }
-*/
-/* .nav-h2{
+
+.nav-h2{
     position: absolute;
     padding-top: .1rem;
     margin-left: 8rem;
     color: white;
     font-size: 30px;
-  } */
+  }
 .nav-link, .logo-text{
    color: #fff !important;
    padding: 10px 0;
@@ -63,8 +63,9 @@ html.body {
    background-repeat: no-repeat;
  }
 
+
  .btn{
-   /* margin-left: 10rem; */
+ margin-left: 10rem; 
    /* width: 22%; */
    /* height: 6vh; */
    background-color: #FB3F5C;
@@ -72,6 +73,7 @@ html.body {
    border: none;
    /* align-items: left; */
    margin-top: 1rem;
+
 }
 .btn:hover{
    box-shadow: opx opx 5px 2px;
@@ -143,7 +145,7 @@ html.body {
    padding-top: 10rem; */
 }
 .h1-header1{
-   /* margin-left: 10rem;  */
+    margin-left: 10rem; 
 }
 .p-header2{
    /* margin-left: 8.5rem; */
@@ -159,10 +161,11 @@ html.body {
 .hr{
    background-color: #FB3F5C;
    width: 13%;
-   /* margin-left: 24rem; */
+   margin-left: 24rem; 
    height: 4px;
    border-radius: 5rem;
-   margin-top: 0;   
+   margin-top: 0;  
+ 
 }
 .hr1{
    background-color: #FB3F5C;
@@ -237,12 +240,39 @@ p{
     text-align: center;
     /* margin-left: 23rem; */
 }
+.map{
+
+   justify-content: right;
+}
+.p-text{
+   text-align: left;
+}
 
 .textbox {
   background-color: #e8faff;
   padding: 5px 5px;
   margin-top: 1rem;
 }
+
+form {
+   position: relative;
+}
+
+.form-control-textarea{
+ resize: none;
+
+}
+
+.form-control{
+ height: 50px;
+}
+
+.form-control:focus {
+
+   color: #000;
+
+}
+
 
 
 footer {
@@ -263,6 +293,23 @@ footer {
   .icon-text {
     font-size: 10px;
   }
+  .h2-header{
+   font-size: 1.2em;
+   font-weight: 600;
+   text-align: center;
+}
+  .h1-header1{
+   font-size: 1.2em;
+   font-weight: 600;
+   text-align: center;
+}
+.p-header2{
+   font-size: 1em;
+   text-align: center; 
+}
+.h2-head1{
+   text-align: center;
+}
 }
 
 @media (max-width: 576px) {
@@ -270,15 +317,18 @@ footer {
    .h2-header{
       font-size: 1.2em;
       font-weight: 600;
+      text-align: center;
    }
    .h1-header1{
       font-size: 1.2em;
       font-weight: 600;
+      text-align: center;
    }
    .p-header2{
       font-size: 1em;
-     
+      text-align: center; 
    }
+  
 
   .bookish-text {
     font-size: 24px;
