@@ -15,9 +15,38 @@ html.body {
 
 /*Navigation style starts here!*/
 .navbar {
-    background-color: rgba(251, 63, 92, 0.5);
+    background-color: rgba(233, 35, 65, 0.5);
+    padding-left: 80px;
+    padding-right: 45px;
+   align-items: center;
+   box-shadow: 0 1px 10px 1px rgba(23, 26, 214, 0.479);
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   margin: 0 auto;
+  
   
 }
+.logo-text{
+   margin-left: 10rem;
+}
+.navbar ul {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar li {
+padding-bottom: 0.5rem;
+border-bottom: 3px cyan;
+}
+
+.navbar li .active {
+padding-bottom: 0.5rem;
+}
+
+
+
 
 .navbar-toggler,
 .navbar-light {
@@ -249,6 +278,21 @@ p{
    text-align: left;
    
 }
+.phnicon{
+
+   padding-top: .5rem;
+   padding-left: 1rem;
+}
+.emailcon{
+   padding-top: .5rem;
+   padding-left: 1rem;
+
+}
+
+.locationicon{
+   padding-top: .5rem;
+   padding-left: 1rem;
+}
 
 .textbox {
   background-color: #e8faff;
@@ -260,8 +304,8 @@ p{
 }
 
 .form-control{
- height: 30px;
- width: 70%
+ height: 50px;
+ width: 50%
 }
 
 
@@ -312,6 +356,7 @@ footer {
 .h2-head1{
    text-align: center;
 }
+
 }
 
 @media (max-width: 576px) {
@@ -329,6 +374,13 @@ footer {
    .p-header2{
       font-size: 1em;
       text-align: center; 
+   }
+   .header-container{
+      margin-left: 5rem;
+   }
+   form{
+     position: relative; 
+    margin-left: 2rem; 
    }
   
 
@@ -350,12 +402,13 @@ footer {
     width: 50px;
   }
 }
+@media (max-width: 768px){
 
-@media (max-width: 250px) {
-   *{
-      font-size: 7vw !important;
-      line-height: normal !important;
-   }
+   .h2-header{
+  margin-left: 10rem !important;
+  padding-top: 10rem !important; 
+}
+   
 }
 
 /*
@@ -365,9 +418,12 @@ footer {
     }
 }
 @media (max-width: 768px){
-    footer{
-        width: 100%;
-    }
+
+    .h2-header{
+   margin-left: 10rem;
+   padding-top: 10rem; 
+}
+    
 }
 @media (max-width: 576px){
     footer{
